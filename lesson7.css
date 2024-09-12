@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./hinh-nen-may-tinh-dep-a-56-1.jpg);
+    backdrop-filter: blur(5px);
+    background-color: #f1f1f1;
+    background-size: cover;
+}
+.container {
+    position: relative;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    width: 400px;
+    height: 400px;
+}
+.container .search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.search-box input {
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #ccc;
+    padding-left: 10px;
+    background: transparent;
+}
+.search-box input::placeholder {
+    color: #fff;
+}
+.container i {
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    left: 86%;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.container i:active {
+    background-color: #8e44ad;
+}
+
+.container .center-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.center-column #city_name {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.center-column #weather_state {
+    color: #fff;
+    font-size: 20px;
+}
+.center-column #temp {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+@media (min-width: 1024px) {
+}
